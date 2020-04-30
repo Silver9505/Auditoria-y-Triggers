@@ -1,0 +1,62 @@
+use Tienda_Juegos;
+
+db.ferreteria.save({ "cliente": {
+
+"cli_id": "111111111",
+
+"cli_nom": "pepito",
+
+"cli_ape": "perez",
+
+"cli_pais": "Colombia",
+
+"cli_email": "pepito@hotmail.com"
+
+} 
+
+} );
+
+
+db.ferreteria.save({ "orden": {
+
+"ord_id": "............",
+
+"ord_cli_id": "...........",
+
+"ord_pag_id": "...........",
+
+"ord_fecha_ord": "...........",
+
+"ord_fecha_pago": "..........."
+
+} 
+
+} );
+
+
+db.ferreteria.save({ "juego": {
+
+"jue_id": "1",
+
+"jue_titulo": "DOOM Eternal",
+
+"jue_desarrollador": "id Software",
+
+"jue_editor": "Bethesda Softworks",
+
+"jue_franquicia": "DOOM",
+
+
+"jue_precio": 250000,
+
+jue_modalidad:["Un Jugador", "Multiplayer"],
+
+jue_genero:"Accion"
+
+jue_idioma:["Español Latinoamerica","Ingles","Español España","Coreano","Chino Tradicional","Chino Simplificado"]
+
+
+} 
+
+} );
+
